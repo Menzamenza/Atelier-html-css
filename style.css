@@ -1,0 +1,42 @@
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: coral;
+}
+.bloc{  
+    background-color: coral;
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+}
+.flexe{
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+}
+input[type=submit]{
+    padding: 5px;
+    border: 1px solid black;
+    color: #fff;
+    background: lightskyblue;
+}
+input[type=reset]{
+    color: #fff;
+    border: 1px solid black;
+    padding: 5px;
+    background: red;
+}
